@@ -1,0 +1,17 @@
+[package]
+name = "tensorflow-actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0"
+askama = "0.12.1"
+tract-rs = "=0.21.1"
+dotenv = "0.15"
+actix-files = "0.6.5"
+tokio = { version = "1.36.0", features = ["full"] }
+futures = "0.3.30"
+uuid = "1.8.0"
+multer = "3.0.0"

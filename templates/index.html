@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "includes/head.html" %}
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">Image Classification</h1>
+                        <form id="imageForm" enctype="multipart/form-data" action="/upload" method="post">
+                            <div class="form-group text-center">
+                                <label for="imageInput">Select Image</label>
+                                <input type="file" class="form-control" id="imageInput" accept="image/*">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary mt-3">Predict</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
