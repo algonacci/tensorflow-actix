@@ -7,11 +7,7 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.0"
+futures = "0.3"
 askama = "0.12.1"
-tract-rs = "=0.21.1"
+actix-multipart = "0.6.1"
 dotenv = "0.15"
-actix-files = "0.6.5"
-tokio = { version = "1.36.0", features = ["full"] }
-futures = "0.3.30"
-uuid = "1.8.0"
-multer = "3.0.0"
